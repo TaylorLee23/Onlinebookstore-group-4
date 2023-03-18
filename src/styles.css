@@ -1,0 +1,13 @@
+import React from "react";
+import bannerImage from "./banner.jpg";
+
+function Banner() {
+    return (
+    <div>
+      <img src={bannerImage} alt="Banner" />
+      <h1>Welcome to my online book store!</h1>
+    </div>
+  );
+}
+
+export default Banner;
